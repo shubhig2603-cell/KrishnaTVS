@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact </title>
+        <style>
+            #header
+ {
+  background-color: #f2f2f2;
+  
+  width:100%;
+  border:1px;
+  padding: 2px;
+  margin: 15px;
+  text-align: center;
+  font-size :50px;
+  font-family:Georgia, 'Times New Roman', Times, red serifs;
+}
+table{
+    width:40%;
+    justify-content: center,baseline;
+    font-size : x-large;
+    font-weight:bold;
+
+}
+h1{
+    text-align:  center;
+    color:red;
+
+}
+.contact-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  margin-right: 40px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info a {
+  color: #007BFF;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.contact-form {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+
+        </style>
+    </head>
+<body>
+    <div id="header"> 
+        <b>KRISHNA TVS AUTOMOBILES</b><img src = "TVSlogi.jpg" style = "width:5%"></div>
+    <br>    
+    <table>
+        <tr>
+            <td>
+            <a href = "Untitled-1.html"> HOME   </a>
+            </td>
+            <td>
+             <a href ="photo gallery.html">GALLERY</a>
+            </td>
+            <td>
+           <a href="products.html">PRODUCTS</a>
+            </td>
+            <td>
+            <a href ="Contact us.html" >CONTACT US</a>
+             </td>
+        </tr></table></div>
+    
+ <br>
+ <br>
+ <h1> YOU CAN REACH US AT !</h1>
+ 
+ <section class="contact-block">
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> <a href="tel:+91 9826017310">+91 9826017310</a></p>
+    <p><strong>Email:</strong> <a href="shubhig2603@gmail.com">shubhig2603@gmail.com</a></p>
+  </div>
+
+  <form class="contact-form" action="https://formsubmit.co/shubhig2603@email.com" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+</body>
+
+</html>
